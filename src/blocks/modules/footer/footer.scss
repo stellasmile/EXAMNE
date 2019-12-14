@@ -1,0 +1,64 @@
+.foot-bg{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: $p-1;
+    height: 570px;
+}
+hr{
+    opacity: .8;
+}
+h4{
+    color: #fff;
+    font-family: $font-PB;
+}
+
+.foo-li{
+    h5{
+        color: #fff;
+        margin: 20px 0;
+    }
+    li{
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
+address{
+    color: #fff;
+    font-family: $font-PR;
+    margin: 0 !important;
+}
+.app{
+
+
+    
+        li{
+            border: 2px solid #fff;
+            float: right;
+            margin: 0 5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            i{
+                font-size: 14px;
+                color: #fff;
+                padding: 0;
+            }
+        }      
+
+}
+.foot-img{
+    float: left;
+    padding-right: 15px;
+}
+.fl-fl-fl{
+    display: flex;
+    align-items: center;
+}
+.lnh{
+    line-height: 25px;
+    h5{
+        margin: 0;
+    }
+}

@@ -1,0 +1,48 @@
+@mixin fonts($font-size,$font-family,$font-weight,$font-color) {
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    color: $font-color;
+}
+
+@mixin button-org($width, $height) {
+    width: $width;
+    height: $height;
+    border: 2px solid transparent;
+    background-color: $p-2;   
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+@mixin button-sky($width, $height) {
+    width: $width;
+    height: $height;
+    border: 2px solid transparent;
+    background-color: $d1-p1;   
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: .4s;
+}
+@mixin button_empty($width, $height) {
+    width: $width;
+    height: $height;
+    border: 2px solid transparent;
+    background-color: #fff;   
+    color: gray;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+@mixin select($width, $height) {
+    width: $width;
+    height: $height;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    background-color: #fff;   
+    border-radius: 4px;
+    color: gray;
+}
